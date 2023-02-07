@@ -14,7 +14,7 @@ const watching = () => {
                             <div className="breadcrumb__links">
                                 <Link to="/"><i className="fa fa-home"/> Home</Link>
                                 <Link to="/anime-watching">Watching</Link>
-                                <a href="#">Romance</a>
+                                <Link to="#">Romance</Link>
                                 <span>Fate Stay Night: Unlimited Blade</span>
                             </div>
                         </div>
@@ -27,13 +27,7 @@ const watching = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="anime__video__player">
-                                <ReactPlayer url='https://www.youtube.com/watch?v=P2M1zD6VDok&ab_channel=BHStudio'
-                                             width="100%"
-                                             height="500px"
-                                             playing={false}
-                                             controls={true}
-                                />
-
+                                <ReactPlayer url='https://www.youtube.com/watch?v=P2M1zD6VDok&ab_channel=BHStudio' width="100%" height="500px" playing={false} controls={true}/>
                             </div>
                             <div className="anime__details__episodes">
                                 <div className="section-title">

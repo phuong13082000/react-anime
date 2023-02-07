@@ -8,10 +8,8 @@ const Header = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-2">
-                            <div className="header__logo">
-                                <Link to="/">
-                                    <img src="http://localhost:3000/img/logo.png" alt=""/>
-                                </Link>
+                            <div className="header__logo" onClick={() => navigate("/")}>
+                                <img src="http://localhost:3000/img/logo.png" alt="logo"/>
                             </div>
                         </div>
                         <div className="col-lg-8">
@@ -31,14 +29,14 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li><Link to="/blog">Our Blog</Link></li>
-                                        <li><Link to="/contacts">Contacts</Link></li>
+                                        <li><Link to="#">Contacts</Link></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div className="col-lg-2">
                             <div className="header__right">
-                                <a href="#" className="search-switch"><span className="icon_search"/></a>
+                                <Link to="#" className="search-switch"><span className="icon_search"/></Link>
                                 <Link to="/login"><span className="icon_profile"/></Link>
                             </div>
                         </div>

@@ -5,7 +5,6 @@ import Homepage from "../components/Page/Homepage";
 import Header from "../components/Header/Header";
 import Slider from "../components/Slider/Slider";
 import Footer from "../components/Footer/Footer";
-import Search from "../components/Search/Search";
 import Login from "../components/Page/Login";
 import Category from "../components/Page/Category";
 import Detail from "../components/Page/Detail";
@@ -23,7 +22,6 @@ const AllRoutes = () => {
                     <Slider/>
                     <Homepage/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -33,7 +31,6 @@ const AllRoutes = () => {
                     <Header/>
                     <Category/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -43,7 +40,6 @@ const AllRoutes = () => {
                     <Header/>
                     <Detail/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -53,7 +49,6 @@ const AllRoutes = () => {
                     <Header/>
                     <Watching/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -63,7 +58,6 @@ const AllRoutes = () => {
                     <Header/>
                     <Blog/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -73,7 +67,6 @@ const AllRoutes = () => {
                     <Header/>
                     <BlogDetails/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -83,7 +76,6 @@ const AllRoutes = () => {
                     <Header/>
                     <Login/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>
@@ -93,7 +85,6 @@ const AllRoutes = () => {
                     <Header/>
                     <Register/>
                     <Footer/>
-                    <Search/>
                 </>
             }
             ></Route>

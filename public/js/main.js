@@ -1,12 +1,3 @@
-/*  ---------------------------------------------------
-    Theme Name: Anime
-    Description: Anime video tamplate
-    Author: Colorib
-    Author URI: https://colorib.com/
-    Version: 1.0
-    Created: Colorib
----------------------------------------------------------  */
-
 'use strict';
 
 (function ($) {
@@ -29,14 +20,6 @@
             var containerEl = document.querySelector('.filter__gallery');
             var mixer = mixitup(containerEl);
         }
-    });
-
-    /*------------------
-        Background Set
-    --------------------*/
-    $('.set-bg').each(function () {
-        var bg = $(this).data('setbg');
-        $(this).css('background-image', 'url(' + bg + ')');
     });
 
     // Search model

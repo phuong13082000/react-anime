@@ -1,4 +1,65 @@
+import Card from "../Product/CardIndex";
+import React from "react";
+
 const recentProduct = () => {
+    const dataRecentProduct = [
+        {
+            img: 'http://localhost:3000/img/recent/recent-1.jpg',
+            ep: '18',
+            fullEp: '18',
+            comment: '11',
+            eye: '9141',
+            active: 'Active',
+            category: 'Movie',
+            name: 'Great Teacher Onizuka'
+        }, {
+            img: 'http://localhost:3000/img/recent/recent-2.jpg',
+            ep: '18',
+            fullEp: '18',
+            comment: '11',
+            eye: '9141',
+            active: 'Active',
+            category: 'Movie',
+            name: 'Fate/stay night Movie: Heaven\'s Feel - II. Lost'
+        }, {
+            img: 'http://localhost:3000/img/recent/recent-3.jpg',
+            ep: '18',
+            fullEp: '18',
+            comment: '11',
+            eye: '9141',
+            active: 'Active',
+            category: 'Movie',
+            name: 'Mushishi Zoku Shou: Suzu no Shizuku'
+        }, {
+            img: 'http://localhost:3000/img/recent/recent-4.jpg',
+            ep: '18',
+            fullEp: '18',
+            comment: '11',
+            eye: '9141',
+            active: 'Active',
+            category: 'Movie',
+            name: 'Fate/Zero 2nd Season'
+        }, {
+            img: 'http://localhost:3000/img/recent/recent-5.jpg',
+            ep: '18',
+            fullEp: '18',
+            comment: '11',
+            eye: '9141',
+            active: 'Active',
+            category: 'Movie',
+            name: 'Kizumonogatari II: Nekket su-hen'
+        }, {
+            img: 'http://localhost:3000/img/recent/recent-6.jpg',
+            ep: '18',
+            fullEp: '18',
+            comment: '11',
+            eye: '9141',
+            active: 'Active',
+            category: 'Movie',
+            name: 'The Seven Deadly Sins: Wrath of the Gods'
+        },
+    ]
+
     return(
         <>
             <div className="recent__product">
@@ -15,120 +76,13 @@ const recentProduct = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="product__item">
-                            <div className="product__item__pic set-bg">
-                                <img src="http://localhost:3000/img/recent/recent-1.jpg" alt=""/>
-                                <div className="ep">18 / 18</div>
-                                <div className="comment"><i className="fa fa-comments" /> 11</div>
-                                <div className="view"><i className="fa fa-eye" /> 9141</div>
-                            </div>
-                            <div className="product__item__text">
-                                <ul>
-                                    <li>Active</li>
-                                    <li>Movie</li>
-                                </ul>
-                                <h5>
-                                    <a href="#">Great Teacher Onizuka</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="product__item">
-                            <div className="product__item__pic set-bg">
-                                <img src="http://localhost:3000/img/recent/recent-2.jpg" alt=""/>
-                                <div className="ep">18 / 18</div>
-                                <div className="comment"><i className="fa fa-comments" /> 11</div>
-                                <div className="view"><i className="fa fa-eye" /> 9141</div>
-                            </div>
-                            <div className="product__item__text">
-                                <ul>
-                                    <li>Active</li>
-                                    <li>Movie</li>
-                                </ul>
-                                <h5>
-                                    <a href="#">Fate/stay night Movie: Heaven's Feel - II. Lost</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="product__item">
-                            <div className="product__item__pic set-bg">
-                                <img src="http://localhost:3000/img/recent/recent-3.jpg" alt=""/>
-                                <div className="ep">18 / 18</div>
-                                <div className="comment"><i className="fa fa-comments" /> 11</div>
-                                <div className="view"><i className="fa fa-eye" /> 9141</div>
-                            </div>
-                            <div className="product__item__text">
-                                <ul>
-                                    <li>Active</li>
-                                    <li>Movie</li>
-                                </ul>
-                                <h5>
-                                    <a href="#">Mushishi Zoku Shou: Suzu no Shizuku</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="product__item">
-                            <div className="product__item__pic set-bg">
-                                <img src="http://localhost:3000/img/recent/recent-4.jpg" alt=""/>
-                                <div className="ep">18 / 18</div>
-                                <div className="comment"><i className="fa fa-comments" /> 11</div>
-                                <div className="view"><i className="fa fa-eye" /> 9141</div>
-                            </div>
-                            <div className="product__item__text">
-                                <ul>
-                                    <li>Active</li>
-                                    <li>Movie</li>
-                                </ul>
-                                <h5>
-                                    <a href="#">Fate/Zero 2nd Season</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="product__item">
-                            <div className="product__item__pic set-bg">
-                                <img src="http://localhost:3000/img/recent/recent-5.jpg" alt=""/>
-                                <div className="ep">18 / 18</div>
-                                <div className="comment"><i className="fa fa-comments" /> 11</div>
-                                <div className="view"><i className="fa fa-eye" /> 9141</div>
-                            </div>
-                            <div className="product__item__text">
-                                <ul>
-                                    <li>Active</li>
-                                    <li>Movie</li>
-                                </ul>
-                                <h5>
-                                    <a href="#">Kizumonogatari II: Nekket su-hen</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="product__item">
-                            <div className="product__item__pic set-bg">
-                                <img src="http://localhost:3000/img/recent/recent-6.jpg" alt=""/>
-                                <div className="ep">18 / 18</div>
-                                <div className="comment"><i className="fa fa-comments" /> 11</div>
-                                <div className="view"><i className="fa fa-eye" /> 9141</div>
-                            </div>
-                            <div className="product__item__text">
-                                <ul>
-                                    <li>Active</li>
-                                    <li>Movie</li>
-                                </ul>
-                                <h5>
-                                    <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
+                    {
+                        dataRecentProduct.map(dataRecentProductDetail => {
+                            return (
+                                <Card dataProductDetail={dataRecentProductDetail} key={dataRecentProductDetail._key}/>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </>
