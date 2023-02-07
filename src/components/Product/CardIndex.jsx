@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const cardIndex = ({dataProductDetail}) => {
     const {img, ep, fullEp, comment, eye, active, category, name} = dataProductDetail;
@@ -17,7 +18,7 @@ const cardIndex = ({dataProductDetail}) => {
                         <li>{category}</li>
                     </ul>
                     <h5>
-                        <a href="#">{name}</a>
+                        <Link to="/anime-detail">{name}</Link>
                     </h5>
                 </div>
             </div>
